@@ -14,7 +14,7 @@
       scroll-behavior: smooth;
     }
     body {
-      background-color: #fcfcfc;
+      background-color: #f9fafb;
       color: #111827;
       line-height: 1.6;
     }
@@ -61,15 +61,15 @@
       padding: 0.75rem 1.5rem;
       margin: 0 0.5rem;
       border-radius: 100px;
-      background-color: black;
-      border: 1px solid black;
+      background-color: #facc15;
+      border: 1px solid #333333;
       text-decoration: none;
-      color: white;
+      color: #000;
       font-weight: 600;
       transition: background-color 0.3s;
     }
     .intro-text .buttons a:hover {
-      background-color: #ce6d94;
+      background-color: #eab308;
     }
     .intro-image {
       flex-shrink: 0;
@@ -150,21 +150,6 @@
     .project-content a:hover {
       background-color: #e5e7eb;
     }
-    .project-content .buttons a {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      margin: 0 0.5rem;
-      border-radius: 100px;
-      background-color: white;
-      border: 1px solid black;
-      text-decoration: none;
-      color: black;
-      font-weight: 600;
-      transition: background-color 0.3s;
-    }
-    .project-content .buttons a:hover {
-      background-color: #ce6d94;
-    }
     .about-section {
       display: flex;
       align-items: center;
@@ -198,7 +183,7 @@
   text-align: center;
   padding: 2rem 1rem;
   background-color: transparent;
-  border-top: 0px solid #e5e7eb;
+  border-top: 1px solid #e5e7eb;
 }
     .footer-icons a {
       margin: 0 0.5rem;
@@ -210,7 +195,33 @@
     .footer-icons a:hover {
       color: #6366f1;
     }
-  </style>
+      @media (max-width: 768px) {
+      .intro {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1rem;
+      }
+      .intro-text, .intro-image {
+        width: 100%;
+        text-align: center;
+      }
+      .intro-text .buttons a {
+        display: block;
+        margin: 0.5rem auto;
+      }
+      .project {
+        flex-direction: column;
+        width: 90%;
+      }
+      .project .project-content,
+      .project .project-image {
+        width: 100%;
+      }
+      .project:nth-child(2) {
+        flex-direction: column;
+      }
+    }
+</style>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const observer = new IntersectionObserver(entries => {
@@ -239,7 +250,6 @@
       <a href="#contact">Contact</a>
     </nav>
   </header>
-
   <section class="intro" id="about">
     <div class="intro-text">
       <h1>Hi, I'm Grisella</h1>

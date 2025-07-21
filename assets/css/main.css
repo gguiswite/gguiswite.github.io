@@ -1707,14 +1707,8 @@ header > p {
   margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
-  -moz-object-fit: cover;
-  -webkit-object-fit: cover;
-  -ms-object-fit: cover;
-  object-fit: cover;
-  -moz-object-position: center;
-  -webkit-object-position: center;
-  -ms-object-position: center;
-  object-position: center;
+  max-width: 100%;
+  height: auto;
 }
 
 .image.featured {

@@ -48,7 +48,7 @@
         <!-- Me -->
         <article id="home" class="panel intro">
           <header>
-            <h1>Grisella Guiswite</h1>
+            <h1 class="name">Grisella Guiswite</h1>
             <h3>Instructional Designer</h3>
             <p style="margin-top: 10px">
               I am an instructional designer and eLearning developer who creates
@@ -68,14 +68,19 @@
           <header>
             <h3>About</h3>
           </header>
-          <h1>Hi, I'm Grisella</h1>
-          <img class="image about" src="images/FamilyPhoto.jpg" alt="" />
-          <p>
-            I’m an instructional designer with a passion for creating learning
-            experiences that are engaging, beautiful, and meaningful. I bring 9
-            years of experience in education and 4 years as an eLearning
-            developer, starting my career as a dual-language elementary teacher
-            before discovering my love for instructional design.
+          <img
+            class="image about"
+            src="images/FamilyPhoto.jpg"
+            alt=""
+            style=""
+          />
+          <p style="padding-top: 20px">
+            Hi, I'm Grisella! I’m an instructional designer with a passion for
+            creating learning experiences that are engaging, beautiful, and
+            meaningful. I bring 9 years of experience in education and 4 years
+            as an eLearning developer, starting my career as a dual-language
+            elementary teacher before discovering my love for instructional
+            design.
           </p>
           <p>
             While teaching, I wore many hats, including curriculum writer and
@@ -114,109 +119,209 @@
         <!-- Work -->
         <article id="work" class="panel">
           <header>
-            <h3>Project 01</h3>
+            <h3>Work</h3>
           </header>
-          <h1>Mastering the Art of Beertending</h1>
-          <p></p>
-          <p>
-            For Baillies Brewing Company, great service is just as important as
-            great beer. As a new brewery in a competitive craft beer market,
-            first impressions matter. This interactive eLearning course prepares
-            new beertenders to confidently welcome customers, explain beer
-            styles, and make personalized recommendations.
-          </p>
-          <img
-            class="image fit"
-            src="https://gguiswite.s3.us-east-2.amazonaws.com/portfolio/Project01Mockup.png"
-          />
-          <h2>Design Process</h2>
-          <h3>Initial Design</h3>
-          <p>
-            The initial design of this project started as a rough outline, which
-            I created in a Word document. Since this course didn’t include any
-            branching scenarios, the flow was straightforward. The outline
-            helped map out the learning objectives, key interactions, and
-            overall structure before building the course.
-          </p>
-          <a
-            href="https://gguiswite.s3.us-east-2.amazonaws.com/portfolio/Mastering+the+Art+of+Beertending+Outline.pdf"
-            target="_blank"
-            class="button"
-            role="button"
-            ><span
-              ><i class="fa-solid fa-arrow-up-right-from-square"></i> View
-              Outline</span
-            ></a
-          >
-          <p></p>
-          <h2>Storyboard</h2>
-          <p>
-            After drafting a rough outline, I created a storyboard detailing
-            each slide of the eLearning course, including voice-over scripts,
-            navigation guidance, and development notes.
-          </p>
-          <a
-            href="https://gguiswite.s3.us-east-2.amazonaws.com/portfolio/Mastering+the+Art+of+Beertending+Storyboard.pdf"
-            target="_blank"
-            class="button"
-            role="button"
-            ><span
-              ><i class="fa-solid fa-arrow-up-right-from-square"></i> View
-              Storyboard</span
-            ></a
-          >
-          <p></p>
-          <p>
-            To develop this course, I used Adobe Captivate Classic. I sourced
-            stock images and used ChatGPT to generate images of the beertender
-            and mock-ups of the six beers, which I edited in Adobe Illustrator.
-            For example, adding the Baillies logo to the beertender’s apron. For
-            voice-over, I used Eleven Labs and edited the audio in Adobe
-            Audition.
-          </p>
-          <p>
-            To build a custom navigation menu, I followed Paul Wilson’s YouTube
-            tutorial,
+          <div class="project active" id="project1">
+            <h1>Mastering the Art of Beertending</h1>
+            <p></p>
+            <p>
+              For Baillies Brewing Company, great service is just as important
+              as great beer. As a new brewery in a competitive craft beer
+              market, first impressions matter. This interactive eLearning
+              course prepares new beertenders to confidently welcome customers,
+              explain beer styles, and make personalized recommendations.
+            </p>
+            <img
+              class="image fit"
+              src="https://gguiswite.s3.us-east-2.amazonaws.com/portfolio/Project01Mockup.png"
+            />
+            <p style="text-align: center">
+              <a
+                href="https://gguiswite.s3.us-east-2.amazonaws.com/BailliesBrewing/Mastering+the+Art+of+Beertending/index.html"
+                target="_blank"
+                class="button"
+                role="button"
+                ><span
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i> View
+                  the Project</span
+                ></a
+              >
+            </p>
+            <h2>Design Process</h2>
+            <h3>Initial Design</h3>
+            <p>
+              The initial design of this project started as a rough outline,
+              which I created in a Word document. Since this course didn’t
+              include any branching scenarios, the flow was straightforward. The
+              outline helped map out the learning objectives, key interactions,
+              and overall structure before building the course.
+            </p>
             <a
-              href="https://www.youtube.com/watch?v=pm3qOekdsZ4"
-              target="_blank"
-              ><i
-                >How to Build Your Own Table of Contents in Adobe Captivate</i
-              ></a
-            >, and his flip card interaction tutorial to create the flip cards
-            in the Creating Great Guest Experiences slide.
-          </p>
-          <p>
-            I planned to include closed captions throughout the project but ran
-            into a challenge on the Beer Styles 101 slide. The six audio clips
-            were triggered by advanced actions and didn’t appear on the
-            Timeline, which prevented standard captioning. I resolved this by
-            using JavaScript to enable closed captions and display text
-            manually.
-          </p>
-          <img src="images/CaptivateBeertender.png" class="image fit" />
-          <img
-            src="images/CaptivateBeertenderJavaScript.png"
-            class="image small"
-          />
-          <p>
-            I enjoyed the process and challenges, as they gave me the chance to
-            do what I love most – learn and grow. Click the button below to
-            explore the live project!
-          </p>
-          <p style="text-align: center">
-            <a
-              href="https://gguiswite.s3.us-east-2.amazonaws.com/BailliesBrewing/Mastering+the+Art+of+Beertending/index.html"
+              href="https://gguiswite.s3.us-east-2.amazonaws.com/portfolio/Mastering+the+Art+of+Beertending+Outline.pdf"
               target="_blank"
               class="button"
               role="button"
               ><span
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Explore
-                the Project</span
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> View
+                Outline</span
               ></a
             >
-          </p>
-          <p></p>
+            <p></p>
+            <h3>Storyboard</h3>
+            <p>
+              After drafting a rough outline, I created a storyboard detailing
+              each slide of the eLearning course, including voice-over scripts,
+              navigation guidance, and development notes.
+            </p>
+            <a
+              href="https://gguiswite.s3.us-east-2.amazonaws.com/portfolio/Mastering+the+Art+of+Beertending+Storyboard.pdf"
+              target="_blank"
+              class="button"
+              role="button"
+              ><span
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> View
+                Storyboard</span
+              ></a
+            >
+            <p></p>
+            <p>
+              To develop this course, I used Adobe Captivate Classic. I sourced
+              stock images and used ChatGPT to generate images of the beertender
+              and mock-ups of the six beers, which I edited in Adobe
+              Illustrator. For example, adding the Baillies logo to the
+              beertender’s apron. For voice-over, I used Eleven Labs and edited
+              the audio in Adobe Audition.
+            </p>
+            <p>
+              To build a custom navigation menu, I followed Paul Wilson’s
+              YouTube tutorial,
+              <a
+                href="https://www.youtube.com/watch?v=pm3qOekdsZ4"
+                target="_blank"
+                ><i
+                  >How to Build Your Own Table of Contents in Adobe Captivate</i
+                ></a
+              >, and his
+              <a
+                href="https://youtu.be/XeYu22a9sGg?si=07V0FXNpjYY5fcl3"
+                target="_blank"
+                >flip card interaction tutorial</a
+              >
+              to create the flip cards in the Creating Great Guest Experiences
+              slide.
+            </p>
+            <p>
+              I planned to include closed captions throughout the project but
+              ran into a challenge on the Beer Styles 101 slide. The six audio
+              clips were triggered by advanced actions and didn’t appear on the
+              Timeline, which prevented standard captioning. I resolved this by
+              using JavaScript to enable closed captions and display text
+              manually.
+            </p>
+            <img src="images/CaptivateBeertender.png" class="image fit" />
+            <img
+              src="images/CaptivateBeertenderJavaScript.png"
+              class="image small"
+            />
+            <p>
+              I enjoyed the process and challenges, as they gave me the chance
+              to do what I love most – learn and grow. Click the button below to
+              explore the live project!
+            </p>
+            <div style="text-align: right">
+              <a href="#" class="button next-project" data-target="project2"
+                ><i class="fa-solid fa-arrow-right"></i> Next Project</a
+              >
+            </div>
+          </div>
+          <div class="project" id="project2" style="display: none">
+            <!-- Project 02 content here -->
+            <h1>
+              Canvas Course: Developmentally Appropriate Tech Use in Pre-K
+            </h1>
+            <p></p>
+            <video autoplay loop muted playsinline class="video-responsive">
+              <source src="images/CanvasVideo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <p>
+              In my current role as an eLearning Developer in the nonprofit
+              early education space, I design engaging, accessible training for
+              PK3 and PK4 teachers and instructional leaders. When I joined
+              AppleTree, course content was often hidden behind links that
+              opened in new windows, creating confusion and extra steps for
+              users. To improve the learning experience, I used my HTML and
+              Captivate skills to embed interactive modules and videos directly
+              into Canvas, ensuring a seamless, click-to-learn experience.
+            </p>
+            <p>
+              This course,
+              <i>Developmentally Appropriate Use of Technology in Pre-K</i>,
+              features a custom landing page, interactive popups, knowledge
+              checks, and a drag-and-drop activity, all displayed directly
+              within Canvas. I collaborated with an instructional designer and
+              used tools like Adobe Captivate Classic, Adobe Audition, Adobe
+              Illustrator, and Eleven Labs AI voiceover. I also applied HTML,
+              CSS, and JavaScript to optimize the experience across devices.
+            </p>
+            <p>
+              I’m constantly sharpening my skills by taking online courses,
+              learning from experts in the eLearning field, and competing in
+              challenges, like the Adobe Captivate Timer Challenge, where I
+              placed 2nd and earned a free certification course. I'm now an
+              Adobe Certified Professional in Captivate and passionate about
+              creating content that’s not only functional, but delightful to
+              use.
+            </p>
+            <section>
+              <h4>Before</h4>
+              <p class="caption">Disjointed flow with external links</p>
+              <div class="row">
+                <div class="col-4 col-6-medium col-12-small">
+                  <div class="image fit">
+                    <img src="images/CanvasCourseBefore01.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                  <div class="image fit">
+                    <img src="images/CanvasCourseBefore02.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                  <div class="image fit">
+                    <img src="images/CanvasCourseBefore03.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h4>After</h4>
+              <p class="caption">
+                Seamless experience with an easy-to-navigate landing page,
+                embedded videos, interactions, and a software simulation
+              </p>
+              <div class="row">
+                <div class="col-4 col-6-medium col-12-small">
+                  <div class="image fit">
+                    <img src="images/CanvasCourseAfter01.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                  <div class="image fit">
+                    <img src="images/CanvasCourseAfter02.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                  <div class="image fit">
+                    <img src="images/CanvasCourseAfter03.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <a href="#" class="button next-project" data-target="project1">
+              <i class="fa-solid fa-arrow-left"></i> Previous Project
+            </a>
+          </div>
         </article>
 
         <!-- Contact -->
@@ -267,5 +372,19 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      document.querySelectorAll(".next-project").forEach((button) => {
+        button.addEventListener("click", (e) => {
+          e.preventDefault();
+          const targetId = button.getAttribute("data-target");
+
+          document.querySelectorAll("#work .project").forEach((proj) => {
+            proj.style.display = "none";
+          });
+
+          document.getElementById(targetId).style.display = "block";
+        });
+      });
+    </script>
   </body>
 </html>
